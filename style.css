@@ -24,7 +24,8 @@ ul {
 }
 .header{
   background-color: rgb(7, 71, 7);
-  position: relative;
+  position: fixed;
+  width: 100%;
   z-index: 100;
   background: rgb(0, 0, 0, 0.9);
  
@@ -124,7 +125,7 @@ nav ul li a:hover {
 }
 
 .s1 .content h1 {
-  font-size: 40px;
+  font-size: 31px;
   margin-top: 30px;
   color: #fff;
 }
@@ -645,7 +646,7 @@ padding: 30px;
     font-weight: 800;
   
   }
-  /* .s4{display: flex;
+  .s4{display: flex;
     justify-content: center;
     padding: 80px 10px;
     background-color: black;
@@ -699,4 +700,27 @@ padding: 30px;
         background-color: goldenrod;
         border-radius: 18%;
         padding:7px 15px; 
-    }.o a:hover{transform: scale(1.1);} */
+    }.o a:hover{transform: scale(1.1);}
+    .carousel-item img {
+      width: 100%;
+      /* height: auto; يحافظ على نسبة العرض إلى الارتفاع */
+    }
+    
+    /* التأكد من أن أزرار التحكم تظهر بشكل صحيح على جميع الشاشات */
+    .carousel-control-prev, .carousel-control-next {
+      width: 5%;
+      /* يمكنك تعديل العرض إذا لزم الأمر */
+    }
+    
+    /* تحسين التباعد حول أزرار التحكم */
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.5); /* اللون الخلفي لجعل الأيقونات مرئية بشكل أفضل */
+      border-radius: 50%;
+      padding: 10px;
+    }
+    @media (min-width: 992px) { /* شاشات اللاب توب وما فوق */
+      .carousel-item img {
+          height: 400px; /* ضبط ارتفاع الصورة لتناسب شاشات اللاب توب */
+          object-fit: cover; /* الحفاظ على تغطية الصورة بالكامل بدون تشويه */
+      }
+  }

@@ -125,7 +125,11 @@ nav ul li a:hover {
 }
 
 .s1 .content h1 {
+<<<<<<< HEAD
   font-size: 31px;
+=======
+  font-size: 30px;
+>>>>>>> 31969df221d74dab2e049826217ebb699d9064fa
   margin-top: 30px;
   color: #fff;
 }
@@ -136,7 +140,7 @@ nav ul li a:hover {
 } 
 
 .s1  {
-  height: 30vh;
+  height: 40vh;
   background: url("./img/home_bg.jpeg") center center/cover no-repeat;
   position: relative;
   z-index: 10;
@@ -700,6 +704,7 @@ padding: 30px;
         background-color: goldenrod;
         border-radius: 18%;
         padding:7px 15px; 
+<<<<<<< HEAD
     }.o a:hover{transform: scale(1.1);}
     .carousel-item img {
       width: 100%;
@@ -724,3 +729,6 @@ padding: 30px;
           object-fit: cover; /* الحفاظ على تغطية الصورة بالكامل بدون تشويه */
       }
   }
+=======
+    }.o a:hover{transform: scale(1.1);} */
+>>>>>>> 31969df221d74dab2e049826217ebb699d9064fa

@@ -124,7 +124,7 @@ nav ul li a:hover {
 }
 
 .s1 .content h1 {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 30px;
   color: #fff;
 }
@@ -135,7 +135,7 @@ nav ul li a:hover {
 } 
 
 .s1  {
-  height: 30vh;
+  height: 40vh;
   background: url("./img/home_bg.jpeg") center center/cover no-repeat;
   position: relative;
   z-index: 10;
